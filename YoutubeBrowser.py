@@ -48,7 +48,7 @@ def StartupTest(driver):
     return driver
 
 def main(SearchTerm):
-    APIKEY = "AIzaSyCl6ozegoT6IoHpzgFzhJ1NLdxHqLh9r30"  
+    APIKEY = "XXXXXXXXXXXXXXX"  
     print SearchTerm
     driver = webdriver.Firefox()
     driver = StartupTest(driver)
